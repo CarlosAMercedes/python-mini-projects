@@ -10,10 +10,6 @@ while True:
         continue
 #If cent is 0-99, then calculations using cent will be executed
     else:
-        q = 25
-        d = 10
-        n = 5
-        p = 1
         qt = cent//25
         centq = cent - (qt * 25)
         dt = centq//10
@@ -33,4 +29,5 @@ while True:
         pass
     else:
         break
+
 print("Bye!")
